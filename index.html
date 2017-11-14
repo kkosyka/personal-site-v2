@@ -39,7 +39,7 @@
 <section id="about">
   <div>
     <h3 style="text-align:center;">About Me</h3>
-        <p><img class="icon" src="images/smileBike.png" height="150px" alt="moreInfo"></label></p>
+        <p><img class="icon" src="images/smileBike.png" height="170px" alt="moreInfo"></label></p>
         <p>
           Hello!
         </p>
@@ -106,13 +106,13 @@
     document.getElementById("slide").checked = false;
   }
 
-  var quotes = ['Don&#39t stop until you&#39re proud.',
+var quotes = ['Don&#39t stop until you&#39re proud.',
   'A new language is a new life.',
   'Will it be easy? Nope.<br/>Worth it? Absolutely.',
   'The expert in anything was once a beginner.',
   'Always do what you are afraid to do.',
   'Don&#39t lose the spark that makes you You. <br/>~ C.J. Peterson',
-  // 'Happiness is &hellip when your code runs without error.',
+  'Happiness is ... when your code runs without error.',
   'Try to be a rainbow in someone&#39s cloud. <br/>~ Maya Angelou',
   'Out of difficulties grow miracles. <br/>~ Jean de la Bruyere',
   'Never let anyone disturb your composure, <br/>deter your accomplishment, <br/>or destroy your happiness.',
@@ -124,7 +124,12 @@
   'where<br/>you are.<br/> is not <br/>who<br/>you are.<br/>~ circumstances',
   'The world is yours.',
   'Follow your most intense<br/>obsessions mercilessly.<br/>~ Frank Kafka',
-  'Silence isn&#39t empty, it&#39s full<br/> of answers'];
+  'Silence isn&#39t empty, it&#39s full<br/> of answers',
+  'With the new day comes new strength and new thoughts.<br/>~ Eleanor Roosevelt',
+  'Better an oops<br/> than a what if.',
+  'She<br/>dreams<br/>more<br/>often<br/>than<br/>she<br/>sleeps', 
+  'You only fail when you stop trying.',
+  'I was quiet, but<br/>I was not blind<br/>~ Jane Austen'];
   function randomQuote(){
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById("quote1").innerHTML = '<span >' + quote + '</span >';
